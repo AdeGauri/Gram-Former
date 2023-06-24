@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body{
+      background-image: url("formalizer.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      
+    
+      
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .textarea-container {
+      display: flex;
+      margin-bottom: 10px;
+      margin-top: 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .textarea {
+      width: 550px;
+      height: 300px;
+      resize: horizontal;
+    }
+
+    .button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 120;
+    color: #fff;
+    padding: 8px 14px;
+    margin: 10px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    background-color:  #7f00ff; 
+    box-shadow: 0 5px 3px rgba(0,0,0,0.4);
+    border-radius: 2px;
+
+  }
+  .button:hover{
+    background-color: #3d535f;
+  }
+  h1{
+    padding-top: 20px;
+    font-family: cursive;
+    color: #3d535f;
+  }
+  
+  
+  
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <a href="Home.html"><i class="fa fa-home" style="font-size:36px;color:#7f00ff;text-shadow:2px 2px 4px #000000;"></i></a>
+    <h1>Correct the sentences with Gramformer</h1>
+    
+    <div class="textarea-container">
+      <textarea class="textarea" placeholder="  Enter the input here"></textarea>
+      <textarea class="textarea" placeholder="  You will get the output here"></textarea>
+      
+    </div>
+    <button class="button">Correct it</button>
+  </div>
+</body>
+</html>
